@@ -1,5 +1,5 @@
 # ── Общие настройки (одни на все прокси) ───────────────────────────
-namespace: proxy
+namespace: default
 ingressClassName: nginx
 tlsSecret:  sadkomed-tls        # один Secret с *.sadkomed.ru на всех
 
