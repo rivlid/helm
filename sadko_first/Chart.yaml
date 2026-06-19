@@ -1,0 +1,12 @@
+apiVersion: v2
+name: proxy-services
+description: >-
+  Перенос nginx reverse-proxy конфигов в ingress-nginx.
+  Один список в values.yaml -> N сервисов в кластере.
+type: application
+version: 0.1.0
+appVersion: "1.0"
+
+mainteiners:
+  - name: Roman Kalsin
+    email: r.kalsin@sadkomed.ru

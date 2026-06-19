@@ -1,0 +1,34 @@
+# ── Общие настройки (одни на все прокси) ───────────────────────────
+namespace: proxy
+ingressClassName: nginx
+tlsSecret:  sadkomed-tls        # один Secret с *.sadkomed.ru на всех
+
+# Дефолты — применяются, если у прокси не указано своё значение
+defaults:
+  backendPort: 80
+  sslRedirect: true                 # http -> https
+
+# ── Список прокси ──────────────────────────────────────────────────
+# Каждый блок = один сайт. Это твой старый `server { }` из nginx.
+# Минимум нужно: name, host, backendIP. Порт берётся из defaults.
+proxies:
+  - name: relma
+    host: relma.sadkomed.ru
+    backendIP: 192.168.253.200
+    backendPort: 8000
+
+  - name: rsema
+    host: rsema.sadkomed.ru
+    backendIP: 192.168.9.98
+    backendPort: 3000
+
+  - name: rgrafana
+    host: rgrafana.sadkomed.ru
+    backendIP: 192.168.253.40
+    backendPort: 3000
+
+  # Добавить новый прокси = дописать 4 строки сюда и сделать helm upgrade.
+  # - name: jira
+  #   host: jira.sadkomed.ru
+  #   backendIP: 10.101.0.53
+  #   backendPort: 8080
