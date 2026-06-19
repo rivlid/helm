@@ -32,6 +32,9 @@ metadata:
   namespace: {{ $.Values.namespace }}
   annotations:
     nginx.ingress.kubernetes.io/proxy-body-size: "0"
+    {{- if .backendProtocol }}
+    nginx.ingress.kubernetes.io/backend-protocol: {{ .backendProtocol | quote }}
+    {{- end }}
     nginx.ingress.kubernetes.io/proxy-read-timeout: "600"
     nginx.ingress.kubernetes.io/proxy-send-timeout: "600"
 spec:
