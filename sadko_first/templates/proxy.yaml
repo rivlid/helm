@@ -12,16 +12,20 @@ spec:
 
 ---
 
-apiVersion: v1
-kind: Endpoints
+apiVersion: discovery.k8s.io/v1
+kind: EndpointSlice
 metadata:
   name: {{ .name }}-external
   namespace: {{ $.Values.namespace }}
-subsets:
+  labels:
+    kubernetes.io/service-name: {{ .name }}-external
+addressType: IPv4
+endpoints:
   - addresses:
-    - ip: {{ .backendIP }}
-    ports:
-    - port: {{ .backendPort | default $.Values.defaults.backendPort }}
+    - {{ .backendIP }}
+ports:
+  - port: {{ .backendPort | default $.Values.defaults.backendPort }}
+    protocol: TCP
 
 ---
 
