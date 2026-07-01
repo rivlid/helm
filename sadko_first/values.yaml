@@ -51,8 +51,8 @@ proxies:
     backendIP: 192.168.253.40
     backendPort: 3000
 
-  - name: rplanka
-    host: rplanka.sadkomed.ru
+  - name: planka
+    host: planka.sadkomed.ru
     backendIP: 192.168.253.33
     backendPort: 1337
 
