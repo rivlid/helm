@@ -51,6 +51,11 @@ proxies:
     backendIP: 192.168.253.40
     backendPort: 3000
 
+  - name: rplanka
+    host: rplanka.sadkomed.ru
+    backendIP: 192.168.253.33
+    backendPort: 1337
+
   - name: elma
     host: elma.sadkomed.ru
     backendIP: 192.168.253.200
