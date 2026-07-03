@@ -309,6 +309,12 @@ internal:
     serviceNamespace: headlamp
     backendPort: 80
 
+  - name: grafana-k8s
+    host: grafana-k8s.sadkomed.ru
+    serviceName: kube-prometheus-stack-grafana
+    serviceNamespace: monitoring
+    backendPort: 80
+
   # Добавить новый прокси = дописать 4 строки сюда и сделать helm upgrade.
   # - name: jira
   #   host: jira.sadkomed.ru
