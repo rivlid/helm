@@ -303,12 +303,11 @@ proxies:
 
 # Внутренние сервисы кластера
 internal:
-  - name: k8s-dashboard
-    host: dashboard.sadkomed.ru
-    serviceName: kubernetes-dashboard
-    serviceNamespace: kubernetes-dashboard
-    backendPort: 443
-    backendProtocol: HTTPS
+  - name: k8s-headlamp
+    host: headlamp.sadkomed.ru
+    serviceName: headlamp
+    serviceNamespace: headlamp
+    backendPort: 80
 
   # Добавить новый прокси = дописать 4 строки сюда и сделать helm upgrade.
   # - name: jira
