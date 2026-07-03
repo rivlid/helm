@@ -301,6 +301,15 @@ proxies:
     backendIP: 192.168.100.40
     backendPort: 80
 
+# Внутренние сервисы кластера
+internal:
+  - name: k8s-dashboard
+    host: dashboard.sadkomed.ru
+    serviceName: kubernetes-dashboard
+    serviceNamespace: kubernetes-dashboard
+    backendPort: 443
+    backendProtocol: HTTPS
+
   # Добавить новый прокси = дописать 4 строки сюда и сделать helm upgrade.
   # - name: jira
   #   host: jira.sadkomed.ru
