@@ -315,6 +315,12 @@ internal:
     serviceNamespace: monitoring
     backendPort: 80
 
+  - name: argocd
+    host: argocd.sadkomed.ru
+    serviceName: argocd-server
+    serviceNamespace: argocd
+    backendPort: 80
+
   # Добавить новый прокси = дописать 4 строки сюда и сделать helm upgrade.
   # - name: jira
   #   host: jira.sadkomed.ru
