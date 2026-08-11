@@ -1,4 +1,4 @@
-ingressClassName: nginx-test
+ingressClassName: nginx-69
 proxies:
   - name: sema
     host: sema.sadkomed.ru
