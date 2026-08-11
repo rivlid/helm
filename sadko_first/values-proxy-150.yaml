@@ -1,309 +1,309 @@
 ingressClassName: nginx
 proxies:
-  - name: elma365
+  - name: elma365-150
     host: elma365.sadkomed.ru
     backendIP: 192.168.253.205
     backendPort: 443
     backendProtocol: HTTPS
 
-  - name: mail
+  - name: mail-150
     host: mail.sadkomed.ru
     backendIP: 192.168.253.156
     backendPort: 443
     backendProtocol: HTTPS
 
-  - name: stakhan
+  - name: stakhan-150
     host: stakhan.sadkomed.ru
     backendIP: 192.168.9.70
     backendPort: 443
     backendProtocol: HTTPS
 
-  - name: rmail
+  - name: rmail-150
     host: rmail.sadkomed.ru
     backendIP: 192.168.253.156
     backendPort: 443
     backendProtocol: HTTPS
 
-  - name: relma
+  - name: relma-150
     host: relma.sadkomed.ru
     backendIP: 192.168.253.200
     backendPort: 8000
 
-  - name: semaphore
+  - name: semaphore-150
     host: semaphore.sadkomed.ru
     backendIP: 192.168.9.98
     backendPort: 3000
 
-  - name: rgrafana
+  - name: rgrafana-150
     host: rgrafana.sadkomed.ru
     backendIP: 192.168.253.40
     backendPort: 3000
 
-  - name: planka
+  - name: planka-150
     host: planka.sadkomed.ru
     backendIP: 192.168.253.33
     backendPort: 1337
 
-  - name: elma
+  - name: elma-150
     host: elma.sadkomed.ru
     backendIP: 192.168.253.200
     backendPort: 8000
 
-  - name: ai
+  - name: ai-150
     host: ai.sadkomed.ru
     backendIP: 192.168.253.26
     backendPort: 10000
 
-  - name: analytics
+  - name: analytics-150
     host: analytics.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8055
 
-  - name: ansible
+  - name: ansible-150
     host: ansible.sadkomed.ru
     backendIP: 192.168.9.98
     backendPort: 3000
 
-  - name: api
+  - name: api-150
     host: api.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: archive
+  - name: archive-150
     host: archive.sadkomed.ru
     backendIP: 192.168.253.26
     backendPort: 9092
 
-  - name: booking
+  - name: booking-150
     host: booking.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: bpm-online
+  - name: bpm-online-150
     host: bpm.sadko.online
     backendIP: 192.168.253.200
     backendPort: 8000
 
-  - name: bpm
+  - name: bpm-150
     host: bpm.sadkomed.ru
     backendIP: 192.168.253.200
     backendPort: 8000
 
-  - name: cc
+  - name: cc-150
     host: cc.sadkomed.ru
     backendIP: 192.168.155.35
     backendPort: 80
 
-  - name: chat
+  - name: chat-150
     host: chat.sadkomed.ru
     backendIP: 192.168.253.27
     backendPort: 3000
 
-  - name: cloud
+  - name: cloud-150
     host: cloud.sadkomed.ru
     backendIP: 192.168.253.157
     backendPort: 9980
 
-  - name: coin
+  - name: coin-150
     host: coin.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: c
+  - name: c-150
     host: c.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: dd-zabbix
+  - name: dd-zabbix-150
     host: dd-zabbix.sadkomed.ru
     backendIP: 192.168.253.21
     backendPort: 80
 
-  - name: drone
+  - name: drone-150
     host: drone.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: elma4-test
+  - name: elma4-test-150
     host: elma-test2.sadkomed.ru
     backendIP: 192.168.253.203
     backendPort: 8000
 
-  - name: elma-dev
+  - name: elma-dev-150
     host: elma-dev.sadkomed.ru
     backendIP: 192.168.253.201
     backendPort: 8000
 
-  - name: elma-test
+  - name: elma-test-150
     host: elma-test.sadkomed.ru
     backendIP: 192.168.253.202
     backendPort: 8000
 
-  - name: emby
+  - name: emby-150
     host: emby.sadkomed.local
     backendIP: 192.168.253.17
     backendPort: 8096
 
-  - name: eoffice
+  - name: eoffice-150
     host: eoffice.sadkomed.ru
     backendIP: 192.168.253.103
     backendPort: 9980
 
-  - name: events
+  - name: events-150
     host: events.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: git
+  - name: git-150
     host: git.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: grafana
+  - name: grafana-150
     host: grafana.sadkomed.ru
     backendIP: 192.168.253.40
     backendPort: 3000
 
-  - name: i
+  - name: i-150
     host: i.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: itwiki
+  - name: itwiki-150
     host: itwiki.sadkomed.ru
     backendIP: 192.168.9.84
     backendPort: 8080
 
-  - name: langchain
+  - name: langchain-150
     host: langchain.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: lms
+  - name: lms-150
     host: lms.sadkomed.ru
     backendIP: 192.168.253.25
     backendPort: 80
 
-  - name: nabirator
+  - name: nabirator-150
     host: nabirator.sadkomed.ru
     backendIP: 192.168.253.26
     backendPort: 18881
 
-  - name: neura
+  - name: neura-150
     host: neura.sadkomed.ru
     backendIP: 192.168.9.92
     backendPort: 3000
 
-  - name: newportal
+  - name: newportal-150
     host: newportal.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8053
 
-  - name: obm
+  - name: obm-150
     host: obm.sadkomed.ru
     backendIP: 192.168.10.89
     backendPort: 9906
 
-  - name: portainer
+  - name: portainer-150
     host: portainer.sadkomed.ru
     backendIP: 192.168.253.26
     backendPort: 9999
 
-  - name: portal
+  - name: portal-150
     host: portal.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8053
 
-  - name: price
+  - name: price-150
     host: price.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: prometheus
+  - name: prometheus-150
     host: prometheus.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: regist
+  - name: regist-150
     host: regist.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: reports
+  - name: reports-150
     host: reports.sadkomed.ru
     backendIP: 192.168.253.200
     backendPort: 8080
 
-  - name: sadkochat
+  - name: sadkochat-150
     host: sadkochat.sadkomed.ru
     backendIP: 192.168.253.29
     backendPort: 8065
 
-  - name: sender
+  - name: sender-150
     host: sender.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: spasibo
+  - name: spasibo-150
     host: spasibo.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: spasibotest
+  - name: spasibotest-150
     host: spasibotest.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: start
+  - name: start-150
     host: start.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8054
 
-  - name: superset
+  - name: superset-150
     host: superset.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: testverification
+  - name: testverification-150
     host: testverification.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8100
 
-  - name: v
+  - name: v-150
     host: v.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: wekan
+  - name: wekan-150
     host: wekan.sadkomed.ru
     backendIP: 192.168.253.21
     backendPort: 3001
 
-  - name: yafeed
+  - name: yafeed-150
     host: yafeed.sadkomed.ru
     backendIP: 192.168.253.24
     backendPort: 8000
 
-  - name: upr
+  - name: upr-150
     host: upr.sadkomed.ru
     backendIP: 192.168.100.40
     backendPort: 80
 
 # Внутренние сервисы кластера
 internal:
-  - name: k8s-headlamp
+  - name: k8s-headlamp-150
     host: headlamp.sadkomed.ru
     serviceName: headlamp
     serviceNamespace: headlamp
     backendPort: 80
 
-  - name: grafana-k8s
+  - name: grafana-k8s-150
     host: grafana-k8s.sadkomed.ru
     serviceName: kube-prometheus-stack-grafana
     serviceNamespace: monitoring
     backendPort: 80
 
-  - name: argocd
+  - name: argocd-150
     host: argocd.sadkomed.ru
     serviceName: argocd-server
     serviceNamespace: argocd
