@@ -1,12 +1,12 @@
 ingressClassName: nginx-69
 proxies:
-  - name: sema-69
+  - name: sema
     host: sema.sadkomed.ru
     backendIP: 192.168.9.98
     backendPort: 3000
 # Внутренние сервисы кластера
 internal:  
-  - name: argo-test-69
+  - name: argo-test
     host: argo-test.sadkomed.ru
     serviceName: argocd-server
     serviceNamespace: argocd
