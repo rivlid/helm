@@ -4,8 +4,8 @@ proxies:
     host: sema.sadkomed.ru
     backendIP: 192.168.9.98
     backendPort: 3000
-  - name: elma-69
-    host: elma.sadkomed.ru
+  - name: elma-test69
+    host: elma-test.sadkomed.ru
     backendIP: 192.168.253.200
     backendPort: 8000
 # Внутренние сервисы кластера

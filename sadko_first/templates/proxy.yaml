@@ -41,6 +41,10 @@ metadata:
     {{- end }}
     nginx.ingress.kubernetes.io/proxy-read-timeout: "600"
     nginx.ingress.kubernetes.io/proxy-send-timeout: "600"
+    {{- if .proxyRedirectFrom }}
+    nginx.ingress.kubernetes.io/proxy-redirect-from: {{ .proxyRedirectFrom | quote }}
+    nginx.ingress.kubernetes.io/proxy-redirect-to: {{ .proxyRedirectTo | quote }}
+    {{- end }}
 spec:
   ingressClassName: {{ $.Values.ingressClassName }}
   tls:
