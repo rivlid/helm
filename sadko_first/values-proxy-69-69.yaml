@@ -4,7 +4,7 @@ proxies:
     host: sema.sadkomed.ru
     backendIP: 192.168.9.98
     backendPort: 3000
-  - name: elma
+  - name: elma-69
     host: elma.sadkomed.ru
     backendIP: 192.168.253.200
     backendPort: 8000
