@@ -8,6 +8,8 @@ proxies:
     host: elma-test.sadkomed.ru
     backendIP: 192.168.253.200
     backendPort: 8000
+    proxyRedirectFrom: "http://elma-test.sadkomed.ru:8000/"
+    proxyRedirectTo: "https://elma-test.sadkomed.ru/"
 # Внутренние сервисы кластера
 internal:  
   - name: argo-test
