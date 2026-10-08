@@ -17,3 +17,9 @@ internal:
     serviceName: argocd-server
     serviceNamespace: argocd
     backendPort: 80
+
+  - name: planka-test
+    host: planka-test.sadkomed.ru
+    serviceName: planka
+    serviceNamespace: planka-test
+    backendPort: 1337
