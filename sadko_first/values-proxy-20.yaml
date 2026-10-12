@@ -292,6 +292,12 @@ internal:
     serviceNamespace: headlamp
     backendPort: 80
 
+  - name: planka
+    host: planka.sadkomed.ru
+    serviceName: planka
+    serviceNamespace: planka
+    backendPort: 1337
+
   - name: grafana-k8s
     host: grafana-k8s.sadkomed.ru
     serviceName: kube-prometheus-stack-grafana
